@@ -1,8 +1,8 @@
 const request = require("supertest");
 const app = require("./server");
 
-describe("KT3 App", () => {
-  test("GET / returns 'KT3 App'", async () => {
+describe("Broken App", () => {
+  test("GET / returns 'Broken App'", async () => {
     const res = await request(app).get("/");
     expect(res.status).toBe(200);
     expect(res.text).toBe("\u041a\u04223 App");
