@@ -1,0 +1,1 @@
+export default [{ ignores: ["eslint.config.mjs"] }, { languageOptions: { ecmaVersion: "latest", sourceType: "commonjs", globals: { process: "readonly", console: "readonly", require: "readonly", module: "readonly", describe: "readonly", test: "readonly", expect: "readonly", afterAll: "readonly" } }, rules: { "no-unused-vars": "warn", "no-undef": "error" } }]; 
